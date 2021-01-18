@@ -19,11 +19,11 @@ public class TestMyLinkedList {
         myLinkedList.remove(2);
         System.out.println(myLinkedList.indexOf(2));
         System.out.println(myLinkedList.get(2));
-        myLinkedList.clear();
         myLinkedList.add(3, 5);
         Integer arr[] = myLinkedList.toArray();
         System.out.println(Arrays.toString(arr));
         System.out.println(myLinkedList.toString());
+        myLinkedList.clear();
 
     }
 
